@@ -1,2 +1,5 @@
 # SmootherTrello
-A chrome extension that makes card dragging animation in Trello smoother.
+A Google Chrome extension that makes card dragging animation in Trello smoother.
+
+# Article 
+Tutorial.

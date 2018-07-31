@@ -1,5 +1,5 @@
 (function() {
-  console.log('INJECTED HERE TO MAKE TRELLO FUN');
+  console.log('SUCCESFUL INJECTION IN TRELLO');
 
   const sigmoid = x => (x / (1 + Math.abs(x)));
   let regRotateZ = /rotateZ\((.*?)\)/g;
@@ -32,7 +32,7 @@
   const update = () => {
 
     if (!target) {
-      target = document.querySelector('.active-card');
+      target = document.querySelector('a.active-card');
     }
 
     if (target && (target.style.position === 'absolute')) { 
